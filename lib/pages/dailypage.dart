@@ -83,7 +83,6 @@ class _DailyPageState extends State<DailyPage> {
                                   days[index]["label"],
                                   style: TextStyle(
                                     fontSize: 10,
-
                                   ),
                                 ),
                                 SizedBox(height: 10,),
@@ -169,7 +168,6 @@ class _DailyPageState extends State<DailyPage> {
                                           fontSize: 15,
                                           color: black,
                                           fontWeight: FontWeight.w500,
-
                                         ),
                                         overflow: TextOverflow.ellipsis,
                                       ),
@@ -202,7 +200,6 @@ class _DailyPageState extends State<DailyPage> {
                                     fontWeight: FontWeight.w600,
                                     fontSize: 15,
                                     color: green,
-
                                   ),
                                 ),
                               ],
@@ -218,7 +215,6 @@ class _DailyPageState extends State<DailyPage> {
                         ),
                         child: Divider(
                           thickness: 0.8,
-
                         ),
                       ),
                     ],
@@ -241,11 +237,9 @@ class _DailyPageState extends State<DailyPage> {
                         fontSize: 16,
                         fontWeight: FontWeight.w600,
                         color: black.withOpacity(0.4),
-
                       ),
                       overflow: TextOverflow.ellipsis,
                     ),
-
                   ),
                   Spacer(),
                   Padding(
@@ -256,7 +250,6 @@ class _DailyPageState extends State<DailyPage> {
                         fontSize: 16,
                         fontWeight: FontWeight.w600,
                         color: black.withOpacity(0.4),
-
                       ),
                       overflow: TextOverflow.ellipsis,
                     ),
